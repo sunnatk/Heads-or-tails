@@ -1,0 +1,70 @@
+body{
+  background: linear-gradient(157deg, #FFF -19%, #FFEFBA 99.15%);
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 72px;
+font-weight: 700;
+}
+
+.coinImg{
+  display: flex;
+  justify-content: center;
+}
+
+.imgTails{
+  border-radius: 50%;
+}
+.imgRuble{
+  border-radius: 50%;
+}
+
+.container {
+  padding: 10px;
+}
+
+
+.blockPlacement {
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
+  margin-top: 64px;
+  
+}
+
+.size {
+  color: #000;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+}
+
+
+@media screen and (max-width:624px) {
+  .title{
+    font-size: 40px;
+  }
+
+  .imgTails{
+  box-sizing: content-box;
+  width: 50%;
+
+}
+.imgRuble{
+  box-sizing: content-box;
+  width: 50%;
+}
+}
